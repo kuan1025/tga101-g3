@@ -2,6 +2,7 @@
 public class jackTest {
 	public static void main(String[] args) {
 		
-		System.out.println("宗德每天擦3次護手霜");
+		System.out.println("Jack每天消耗3包衛生紙");
+
 	}
 }
