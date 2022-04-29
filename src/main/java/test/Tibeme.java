@@ -29,6 +29,8 @@ public class Tibeme extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.getWriter().print("哈囉");
+		response.getWriter().print("哈囉");
+		response.getWriter().print("哈囉");
 	}
 
 }
