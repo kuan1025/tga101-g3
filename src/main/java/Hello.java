@@ -7,23 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
-
-//123123123123123123123
-//4:23
-
 @WebServlet("/hello")
 public class Hello extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-	
-	
-	
-	/*
-	 * @Author Kuan
-	 * 
-	 */
-	
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
@@ -34,6 +20,7 @@ public class Hello extends HttpServlet {
 		
 		
 		out.println("test");
+		
 		
 	}
 	
