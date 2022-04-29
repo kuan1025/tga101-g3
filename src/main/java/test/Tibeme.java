@@ -31,6 +31,7 @@ public class Tibeme extends HttpServlet {
 		response.getWriter().print("哈囉");
 		response.getWriter().print("哈囉");
 		response.getWriter().print("哈囉");
+		response.getWriter().print("宗徳測試");
 	}
 
 }
