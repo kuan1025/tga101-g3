@@ -33,7 +33,7 @@ public class Hello extends HttpServlet {
 		out.println("Hello from Servlet");
 		
 		
-		
+		out.println("test");
 		
 	}
 	
